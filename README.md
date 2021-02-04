@@ -49,10 +49,11 @@
 | (●'◡'●) |  SHOWCASE |
 |--|--|
 | Experiment 4-4和4-5：完成图形绕某一坐标轴旋转（包括三视图和正等轴测图） | <img src="https://img-blog.csdnimg.cn/20210124224556201.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjgxNTg0Ng==,size_16,color_FFFFFF,t_70" width="50%"> |
-为了完成**正十二面体**的旋转，作者查了很多资料，最终得以实现，是一件很有趣的事情，如下是源码中坐标对应的点，如有需要可以参考
+
+如下是源码中**正十二面体**坐标对应的点
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210124225241734.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjgxNTg0Ng==,size_16,color_FFFFFF,t_70)
 
-**不足之处**：由于作者采用的消隐算法是外法线消隐算法，此算法只对凸多面体有效，这是该消隐算法的局限；且该消隐算法是按照每个面的边数都相等的多面体来具体实现的，于是对于由三角形和四边形等组成的混合型多面体无法在原有算法中实现，若有需要还得进一步修改
+**不足之处**：由于采用的消隐算法是外法线消隐算法，此算法只对凸多面体有效，这是该消隐算法的局限；且该消隐算法是按照每个面的边数都相等的多面体来具体实现的，于是对于由三角形和四边形等组成的混合型多面体无法在原有算法中实现，若有需要还得进一步修改
 
 ---
 ### Experiment Ⅴ —— Curve and Surface 曲线和曲面
