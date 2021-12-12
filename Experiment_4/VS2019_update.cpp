@@ -1,6 +1,7 @@
 ﻿//////////////////////////
 //程序名称：立方体三视图及正等轴测图及其旋转 
 //功    能：鼠标左键单击时绕Z轴逆时针旋转10°,右键双击后退出程序
+//remember to use MBCS character set
 #include <math.h>
 #include <graphics.h>
 #include <stdio.h>
